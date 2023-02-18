@@ -2,9 +2,7 @@
 /**
  * File: 5-printf.c
  *
- * Description: 'with proper grammer, but the outcome is a piece of art,'
- *
- * main - input function
+ * main - Entry point
  *
  * Return: Always 0
  */
