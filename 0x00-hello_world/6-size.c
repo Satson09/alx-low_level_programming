@@ -12,14 +12,20 @@
  */
 int main(void)
 
-	int(a)
+	long long int(a)
+
+	long int (c)
 
 	char(b)
 
 	float(f)
 
-	sizeof = [a, b, f];
+	print ("size of char: %lu byte(s)\n",  unsigned long)sizeof(b);
 
-	printf("sizeof: %d\n,%d\n,%d\n", a, b, f);
+	printf("size of int: %lu bytes(s)\n", (unsigned long)sizeof(a);
+
+	printf("size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c);
+
+	print (" signed of float: %lu byte(s)\n", (unsigned long))sizeof(f)
 
 	return (0);
