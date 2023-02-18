@@ -7,7 +7,7 @@
  /*
   * main - Entry point
   *
-  * Description: "programming is like is like building a multilingual
+  * Description: "programming is like building a multilingual
   *               puzzle, follow by new line
   *
   * Return: Always 0.
