@@ -1,5 +1,6 @@
 /*
  * File: 4-puts.c
+ * Auth: satson johnson <satsunjohnson@gmail.com>
  */
  
  #include <stdio.h>
