@@ -1,4 +1,5 @@
 /**
+ * File: 4-puts.c
  * main: print "programming is like is like building a multilingual
  *              puzzle, follow by new line
  *
@@ -6,7 +7,7 @@
  *
  * including input
  *
- * return 0.
+ * return: function 0.
  */
 
 #include <stdio.h>
