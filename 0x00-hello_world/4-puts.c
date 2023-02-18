@@ -8,7 +8,7 @@
   * main - Entry point
   *
   * Description: "programming is like building a multilingual
-  *               puzzle, follow by new line
+  *               puzzle.
   *
   * Return: Always 0.
   */
