@@ -11,23 +11,23 @@
 int main(void)
 {
 
-	int a
-	char c
-	long int b
-	long long int d
-	float f
+	int a;
+	char c;
+	long int b;
+	long long int d;
+	float f;
 
 	sizeof() =[a, c, b, d, f]
 
-	printf("\n size of int: %lu", sizeof(a));
+	printf("\n size of int: %lu byte(s)", sizeof(a));
 
-	printf("\n size of char: %lu", sizeof(b));
+	printf("\n size of char: %lu byte(s)", sizeof(b));
 
-	printf("\n size of long int: %lu", sizeof(b));
+	printf("\n size of long int: %lu byte(s)", sizeof(b));
 
-	printf("\n size of long long int: %lu", sizeof(d));
+	printf("\n size of long long int: %lu byte(s)", sizeof(d));
 
-	printf("\n size of float: %lu", sizeof(f));
+	printf("\n size of float: %lu byte(s)", sizeof(f));
 
 	return (0);
 }
