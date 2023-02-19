@@ -12,20 +12,20 @@
  */
 int main(void)
 
-	long long int(a)
+	long long int = a
 
-	long int(c)
+	long int = d
 
-	char(b)
+	char = b
 
-	float(f)
+	float = f
 
-	printf("size of char: %lu byte(s)\n", (unsigned long)sizeof(b);
+	printf("size of char: %lu\n", sizeof(b));
 
-	printf("size of int: %lu bytes(s)\n", (unsigned long)sizeof(a);
+	printf("size of int: %lu\n", sizeof(a));
 
-	printf("size of a long int: %lu bytes(s)\n", (unsigned long)sizeof(c);
+	printf("size of a long int: %lu\n", sizeof(d));
 
-	printf("size of float: %lu byte(s)\n", (unsigned long))sizeof(f);
+	printf("size of float: %lu\n", sizeof(f));
 
 	return (0);
