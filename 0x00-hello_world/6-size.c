@@ -1,33 +1,35 @@
 #include <stdio.h>
 
 /**
- * main - entry point
- *
- * Descriptioin:printing size of various types on the computer
- *		it is compiled and run on.
- *
- * initializing variables a,c,b,and f to data type
- *
+ * prints the size of various types on the computer is compiled and run on
+ * main: Entry point
+ * Declaring variables to data types
+ * printing sizes of data types
  * Return: Always 0
+ * format specifier %lu for unsigned int or unsigned long
  */
 int main(void)
 {
 
-	long long int = a
+	int a
+	char c
+	long int b
+	long long int d
+	float f
 
-	long int = d
+	sizeof() =[a, c, b, d, f]
 
-	char = b
+	printf("\n size of int: %lu", sizeof(a));
 
-	float = f
+	printf("\n size of char: %lu", sizeof(b));
 
-	printf("size of char: %lu\n", sizeof(b));
+	printf("\n size of long int: %lu", sizeof(b));
 
-	printf("size of int: %lu\n", sizeof(a));
+	printf("\n size of long long int: %lu", sizeof(d));
 
-	printf("size of a long int: %lu\n", sizeof(d));
+	printf("\n size of float: %lu", sizeof(f));
 
-	printf("size of float: %lu\n", sizeof(f));
-
-	return (0)
+	return (0);
 }
+
+	
