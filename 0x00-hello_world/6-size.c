@@ -11,6 +11,7 @@
  * Return: Always 0
  */
 int main(void)
+{
 
 	long long int = a
 
@@ -28,4 +29,5 @@ int main(void)
 
 	printf("size of float: %lu\n", sizeof(f));
 
-	return (0);
+	return (0)
+}
