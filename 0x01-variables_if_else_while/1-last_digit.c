@@ -25,17 +25,17 @@ int main(void)
 
 	s = n;
 
-	if (n > 0)
+	if (n > 5)
 
-	printf("%d %s\n", n) "and is greater than %d 5");
+	printf("%d %c\n", n); "and is greater than %d 5");
 
 	else if (n == 0)
 
-	printf("%d %c\n", n) "and is %d 0");
+	printf("%d %c\n", n); "and is %d 0");
 
 	else
 
-	printf("%d %s\n", n) "and is less than %d %d and not 6, 0");
+	printf("%d %c\n", n); "and is less than %d %d and not 6, 0");
 
 	return (0);
 
