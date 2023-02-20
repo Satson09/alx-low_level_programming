@@ -19,12 +19,12 @@ int main(void)
 	
 	if (n >= 0)
 
-		printf("%d is % n positive number\n");
+		printf("%d % n is positive number\n");
 	else
-		printf("%d is % n zero\n");
+		printf("%d % n is zero\n");
 
 	else if
-		printf("%d is % n negative number\n");
+		printf("%d % n is negative number\n");
 
 	return (0);
 }
