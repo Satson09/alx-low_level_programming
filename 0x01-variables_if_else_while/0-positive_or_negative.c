@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - program to determine positive or negative number
+/**
+ * Main - Entry point
  *
- * initialing variable n  to random
+ * Description: determine if a random number is positive, negative or zero
  *
- * return: always 0
+ * Initialing variable n  to random
+ *
+ * Return: always 0 (success)
  */
 int main(void)
 {
@@ -16,11 +18,11 @@ int main(void)
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
-	if (n >= 0)
+	if (n > 0)
 
 		printf("%d is %s\n", n, "positive");
 
-	else if (n <= 0)
+	else if (n < 0)
 
 		printf("%d is %s\n", n, "negative");
 
