@@ -23,19 +23,19 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	*s = n
+	s = n;
 
-	while (n > 0)
+	if (n > 0)
 
-	printf("%d %s\n", n "and is greater than %d 5");
+	printf("%d %s\n", n) "and is greater than %d 5");
 
 	else if (n == 0)
 
-	printf("%d %s\n", n "and is %d 0");
+	printf("%d %c\n", n) "and is %d 0");
 
 	else
 
-	printf("%d %s\n", n "and is less than %d %d and not 6, 0");
+	printf("%d %s\n", n) "and is less than %d %d and not 6, 0");
 
 	return (0);
 
