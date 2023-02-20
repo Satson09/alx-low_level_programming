@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-#include <string.h>
 
 /**
  * Main - random number for the last digit number stored in variable
@@ -17,25 +16,23 @@
 int main(void)
 {
 	int n;
-	char s;
-
+	
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
 
-	s = n;
+	
+	if (n % 10 != 0 && n % 10 < 6)
 
-	if (n > 5)
+	printf("last digit of %d is %d "and is greater than % 5");
 
-	printf("%d %s\n", n); "and is greater than %d 5";);
+	else if (n % 10 == 0)
 
-	else if (n == 0)
-
-	printf("%d %s\n", n); "and is %d 0";);
+	printf("%d %d n "and is %d 0\n");
 
 	else
 
-	printf("%d %s\n", n); "and is less than %d %d and not 6, 0";);
+	printf("%d is %d" n "and is less than 6 and not 0\n");
 
 	return (0);
 
