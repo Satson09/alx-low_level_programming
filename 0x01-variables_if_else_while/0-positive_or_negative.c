@@ -19,12 +19,12 @@ int main(void)
 	
 	if (n >= 0)
 
-		printf("%d %rand() n is positive number\n");
+		printf("%d is %rand()\n", n, "positive number");
 	else
-		printf("%d %rand() n is zero\n");
+		printf("%d is %rand()\n", n, "zero");
 
 	else if
-		printf("%d %rand() n is negative number\n");
+		printf("%d is %rand()\n", n, "negative number");
 
 	return (0);
 }
