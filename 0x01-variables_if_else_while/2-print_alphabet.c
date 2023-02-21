@@ -10,10 +10,11 @@
 int main(void)
 {
 	int x;
+	*p = x;
 
-	for (x = 97; x <= 122; x++;)
+	for (x = 97; x <= 122; x++);
 
-	putchar ("x:\n");
+	putchar ("*x:\n");
 
 	return (0);
 }
