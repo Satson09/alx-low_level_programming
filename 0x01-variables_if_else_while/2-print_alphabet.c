@@ -9,12 +9,14 @@
  */
 int main(void)
 {
-	int x;
-	*p = x;
+	char ch[97--122];
+	int = x;
 
-	for (x = 97; x <= 122; x++);
-
-	putchar ("*x:\n");
+	for (x = 97; x <= 122; x++)
+	{
+		putchar (x);
+	}
+	putchar("\n");
 
 	return (0);
 }
