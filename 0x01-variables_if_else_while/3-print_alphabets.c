@@ -6,8 +6,7 @@
  * Return: always 0 (success)
  */
 int main(void)
-ilphabets.c
-
+{
 	int ch
 
 	for (ch = 'a'; ch < = 'z'; ch++)
