@@ -12,9 +12,9 @@ int main(void)
 	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; x <= 26; i++)
+	for (i = 0; i <= 26; i++)
 	{
-		putchar(aip[i]);
+		putchar(alp[i]);
 	}
 	putchar('\n');
 
