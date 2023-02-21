@@ -9,14 +9,14 @@
  */
 int main(void)
 {
-	char ch[97--122];
-	int = x;
+	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
 
-	for (x = 97; x <= 122; x++)
+	for (i = 0; x <= 26; i++)
 	{
-		putchar (x);
+		putchar(aip[i]);
 	}
-	putchar("\n");
+	putchar('\n');
 
 	return (0);
 }
