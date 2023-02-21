@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - program to print alphabet in lowercase
+ * main - program that prints the alphabet in lowercase
  *
- * initializing variable to data type
+ * iniatialing variables
  *
  * Return: always 0 (success)
  */
 int main(void)
 {
+	int x;
 
-	char ch;
+	for (x = 97; x <= 122; x++;)
 
-		putchar("lowercase character\n");
-
-	for (ch = a; a < z; ch++)
-
-		putchar (ch);
+	putchar ("x:\n");
 
 	return (0);
 }
