@@ -10,10 +10,11 @@
 int main(void)
 {
 	char b[24] = "abcdfghijklmnoprstuvwxyz";
+	int i;
 
-	while (b <= 'z')
+	if i = 0 (i <= 24)
 
-	b++;
+	i++;
 
 	putchar (b);
 
