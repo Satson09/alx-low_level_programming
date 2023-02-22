@@ -9,16 +9,16 @@
  */
 int main(void)
 {
-	char b[24] = "abcdfghijklmnoprstuvwxyz";
+	char alph[24] = "abcdfghijklmnoprstuvwxyz";
 	int i = 0;
 
-	if (i <= 24;)
+	if (i <= 24)
 
 	i++;
 
 	putchar (i);
 
-	putchar ("\n");
+	putchar (\n);
 
 	return (0);
 }
