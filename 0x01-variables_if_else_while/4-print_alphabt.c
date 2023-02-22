@@ -10,13 +10,13 @@
 int main(void)
 {
 	char b[24] = "abcdfghijklmnoprstuvwxyz";
-	int i;
+	int i = 0;
 
-	if i = 0 (i <= 24)
+	if (i <= 24;)
 
 	i++;
 
-	putchar (b);
+	putchar (i);
 
 	putchar ("\n");
 
