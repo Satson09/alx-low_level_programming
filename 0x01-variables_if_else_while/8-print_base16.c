@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: program to prints all numbers of base 16 in lowercase
+ * main - program to prints all numbers of base 16 in lowercase
  *
- *intializing variables to data type 
+ * intializing variables to data type
  *
  * Return: always 0 (success)
  */
@@ -26,6 +26,3 @@ int main(void)
 
 	return (0);
 }
-
-	
-
