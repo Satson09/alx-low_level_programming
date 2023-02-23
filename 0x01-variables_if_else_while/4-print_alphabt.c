@@ -13,7 +13,7 @@ int main(void)
 
 		for (c = 'a'; c <= 'z';)
 
-			a++;
+			c++;
 
 		while (c != 'q' && c != 'e')
 
