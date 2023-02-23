@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Main - program will assign a random number to the variable n
+ * main - program will assign a random number to the variable n
  *	if positive, negative or is zero
  *
  * Initialing variable n  to random
