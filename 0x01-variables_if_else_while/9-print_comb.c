@@ -15,7 +15,7 @@ int main(void)
 	{
 		putchar (i);
 	}
-		for (i == 9)
+		for (i == 9;)
 	{
 		putchar (',');
 		putchar (32);
