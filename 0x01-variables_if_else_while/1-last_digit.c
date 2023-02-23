@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * Main - random number for the last digit number stored in variable
- *
- * if greater, equal to or less than
+ * main - random number for the last digit number stored in variable
+ *	if greater, equal to or less than
  *
  * assigning random to n
  *
