@@ -9,16 +9,19 @@
  */
 int main(void)
 {
-	char alph[24] = "abcdfghijklmnoprstuvwxyz";
-	int i = 0;
+	int c = a;
 
-	if (i <= 24)
+		for (a <= 'z')
 
-	i++;
+		while (a != 'q' && a != 'e')
+		{
+			a++;
 
-	putchar (i);
+			putchar (a);
+		}
+		putchar ('\n')
 
-	putchar (\n);
-
-	return (0);
+		return (0)
 }
+
+
