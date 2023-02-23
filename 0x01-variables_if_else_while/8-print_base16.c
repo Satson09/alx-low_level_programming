@@ -12,12 +12,12 @@ int main(void)
 	int b;
 	char d;
 
-	for (b = 0; b < 10)
+	for (b = 0; b < 10;)
 	{
-		putchar (0 + b);
+		putchar (0 + b)
 		b++;
 	}
-	for (d = 'a'; d <= 'f')
+	for (d = 'a'; d <= 'f';)
 	{
 		putchar (d);
 		d++;
