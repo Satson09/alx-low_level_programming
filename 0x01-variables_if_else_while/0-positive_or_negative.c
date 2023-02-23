@@ -3,9 +3,8 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
- *
- * Description: determine if a random number is positive, negative or zero
+ * Main - program will assign a random number to the variable n
+ *	if positive, negative or is zero
  *
  * Initialing variable n  to random
  *
