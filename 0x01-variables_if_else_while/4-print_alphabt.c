@@ -9,9 +9,9 @@
  */
 int main(void)
 {
-	int c = a;
+	int c;
 
-		for (c <= 'z';)
+		for (c = 'a'; c <= 'z';)
 
 		while (c != 'q' && c != 'e')
 			c++;
