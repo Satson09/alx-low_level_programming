@@ -13,8 +13,10 @@ int main(void)
 
 		for (c = 'a'; c <= 'z';)
 
+			a++;
+
 		while (c != 'q' && c != 'e')
-			c++;
+
 		{
 			putchar (c);
 		}
