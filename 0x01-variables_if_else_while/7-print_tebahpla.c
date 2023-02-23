@@ -8,9 +8,9 @@
  */
 int main(void)
 {
-	char a[26] = "zyxwvutsrqponmlkjihgfedcba";
+	char c;
 
-	for (a = z; a <= 'z'; ++a)
+	for (c = 'a'; c <= 'z'; ++c)
 	{
 		putchar (a);
 	}
