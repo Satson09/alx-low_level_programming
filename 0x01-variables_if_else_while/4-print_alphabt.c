@@ -3,7 +3,7 @@
 /**
  * main - program that prints the alphabet in lowercase except q and e
  *
- *initializing variables to data type char
+ * initializing variables to data type char
  *
  * Return: always 0 (success)
  */
@@ -14,14 +14,11 @@ int main(void)
 		for (a <= 'z')
 
 		while (a != 'q' && a != 'e')
-		{
 			a++;
-
+		{
 			putchar (a);
 		}
-		putchar ('\n')
+		putchar ('\n');
 
-		return (0)
+		return (0);
 }
-
-
