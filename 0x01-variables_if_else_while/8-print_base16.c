@@ -9,8 +9,8 @@
  */
 int main(void)
 {
-	int b
-	char d
+	int b;
+	char d;
 
 	for (b = 0; b < 10)
 	{
