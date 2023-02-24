@@ -12,9 +12,12 @@ int main(void)
 	int i = '0';
 	int x = '9';
 
-	for (i <= '8'; i++)
+	if (i <= '8')
+
+		i++;
 	{
-	while (x <= 89)
+	if (x <= '89')
+
 		x++;
 		{
 			putchar (44);
