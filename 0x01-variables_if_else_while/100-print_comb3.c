@@ -12,13 +12,9 @@ int main(void)
 	int i;
 	int x;
 	{
-	while (i = '1'; i <= '9';)
+	for (i = '1'; i <= '9'; i++;)
 
-		i++;
-
-		while (x = 10; x <= 89;)
-
-			x++;
+		for (x = 10; x <= 89; x++)
 		{
 			putchar (44);
 			putchar (32);
