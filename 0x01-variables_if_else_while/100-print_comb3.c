@@ -12,11 +12,11 @@ int main(void)
 	int i;
 	int x;
 	{
-	for (i = '1'; i <= '9')
+	for (i = '1'; i <= '9';)
 
 		i++;
 
-		for (x = 10; x <= 89)
+		for (x = 10; x <= 89;)
 
 			x++;
 		{
