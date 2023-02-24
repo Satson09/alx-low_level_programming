@@ -9,22 +9,22 @@
  */
 int main(void)
 {
-	int i = '0';
-	int x = '9';
+	int i;
+	int x;
 
-	while (i <= '8')
-
-		i++;
+	for (i = 0; i <= '9'; i++;)
 	{
-	while (x <= 89)
+		x = i + 1;
+
+	while (x < 10)
 
 		x++;
 
-		putchar ('x');
-		putchar (0 + 'i');
+		putchar ('0' + x);
+		putchar ('0' + i);
 		{
-		putchar (44);
-		putchar (32);
+			putchar (44);
+			putchar (32);
 		}
 	}
 	putchar ('\n');
