@@ -16,7 +16,7 @@ int main(void)
 
 		i++;
 	{
-	if (x <= '89')
+	if (x <= 89)
 
 		x++;
 		{
