@@ -16,8 +16,8 @@ int main(void)
 		putchar (i);
 		if (i != '9')
 	{
-		putchar (',');
-		putchar (' ');
+		putchar (44);
+		putchar (32);
 	}
 		i++;
 	}
