@@ -16,7 +16,7 @@ int main(void)
 
 		i++;
 	{
-	if (x <= 89)
+	while (x <= 89)
 
 		x++;
 
