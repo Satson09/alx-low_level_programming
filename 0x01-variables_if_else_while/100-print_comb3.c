@@ -19,12 +19,13 @@ int main(void)
 	if (x <= 89)
 
 		x++;
-		{
-			putchar (44);
-			putchar (32);
-		}
+
 		putchar (0 + 'i');
 		putchar ('x');
+		{
+		putchar (44);
+		putchar (32);
+		}
 	}
 	putchar ('\n');
 
