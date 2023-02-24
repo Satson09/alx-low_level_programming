@@ -11,10 +11,9 @@ int main(void)
 {
 	int i = '0';
 	int x = '9';
-	{
-	while (i <= '8')
-		i++;
 
+	for (i <= '8'; i++)
+	{
 	while (x <= 89)
 		x++;
 		{
