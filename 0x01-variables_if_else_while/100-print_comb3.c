@@ -12,7 +12,7 @@ int main(void)
 	int i = '0';
 	int x = '9';
 
-	if (i <= '8')
+	while (i <= '8')
 
 		i++;
 	{
