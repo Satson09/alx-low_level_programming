@@ -20,8 +20,8 @@ int main(void)
 
 		x++;
 
-		putchar (0 + 'i');
 		putchar ('x');
+		putchar (0 + 'i');
 		{
 		putchar (44);
 		putchar (32);
