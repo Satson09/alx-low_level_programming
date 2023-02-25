@@ -17,17 +17,17 @@ int main(void)
 	{
 		j = i + '1';
 
-	do {
-		putchar (44);
-		putchar (32);
+		do {
+			putchar (44);
+			putchar (32);
 
 		if (i < '8')
-		{
-			putchar ('i');
-			putchar ('j');
-		}
-		j++;
-	} while (j <= '9');
+			{
+				putchar ('0' + i);
+				putchar ('0' + j);
+			}
+			j++;
+		} while (j <= '9');
 
 	}
 	putchar ('\n');
