@@ -27,7 +27,7 @@ int main(void)
 			putchar (j);
 		}
 		j++;
-	} while (j < 10);
+	} while (j <= '9');
 
 	}
 	putchar ('\n');
