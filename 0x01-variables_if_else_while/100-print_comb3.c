@@ -23,8 +23,8 @@ int main(void)
 
 		if (i < '8')
 		{
-			putchar (i);
-			putchar (j);
+			putchar ('i');
+			putchar ('j');
 		}
 		j++;
 	} while (j <= '9');
