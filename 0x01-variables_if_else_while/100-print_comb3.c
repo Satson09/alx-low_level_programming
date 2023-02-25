@@ -14,14 +14,13 @@ int main(void)
 	int j;
 
 	for (i = '0'; i < '9'; i++)
-
+	{
 		j = i + '1';
 
 		do {
 			putchar ('0' + i);
 			putchar ('0' + j);
-
-		if (i < '8')
+			if (i < '8')
 			{
 				putchar (44);
 				putchar (32);
