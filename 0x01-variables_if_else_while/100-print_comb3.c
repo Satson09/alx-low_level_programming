@@ -18,13 +18,13 @@ int main(void)
 		j = i + '1';
 
 		do {
-			putchar (44);
-			putchar (32);
+			putchar (i);
+			putchar (j);
 
 		if (i < '8')
 			{
-				putchar ('0' + i);
-				putchar ('0' + j);
+				putchar (44);
+				putchar (32);
 			}
 			j++;
 		} while (j <= '9');
