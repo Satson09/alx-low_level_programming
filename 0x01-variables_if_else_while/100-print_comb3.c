@@ -13,21 +13,21 @@ int main(void)
 	int i;
 	int j;
 
-	for (i = 0; i < 9; i++)
+	for (i = '0'; i < '9'; i++)
 	{
-		j = i + 1;
+		j = i + '1';
 
 	do {
 		putchar (44);
 		putchar (32);
 
-		if (i < 8)
+		if (i < '8')
 		{
 			putchar (i);
 			putchar (j);
 		}
 		j++;
-	} while (j < 10);
+	} while (j < '10');
 
 	}
 	putchar ('\n');
