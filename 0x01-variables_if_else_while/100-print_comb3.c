@@ -9,25 +9,27 @@
  */
 int main(void)
 {
+
 	int i;
-	int x;
+	int j;
 
-	for (i = 0; i <= '9'; i++;)
+	for (i = 0; i < 9; i++)
 	{
-		x = i + 1;
+		j = i + 1;
 
-	while (x < 10)
+	do {
+		putchar (44);
+		putchar (32);
 
-		x++;
-
-		putchar ('0' + x);
-		putchar ('0' + i);
+		if (i < 8)
 		{
-			putchar (44);
-			putchar (32);
+			putchar (i);
+			putchar (j);
 		}
-	}
+		j++;
+	} while (j < 10);
 	putchar ('\n');
+
 
 	return (0);
 }
