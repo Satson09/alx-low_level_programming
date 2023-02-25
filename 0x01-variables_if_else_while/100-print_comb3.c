@@ -18,8 +18,8 @@ int main(void)
 		j = i + '1';
 
 		do {
-			putchar ('0' + i);
-			putchar ('0' + j);
+			putchar (i);
+			putchar (j);
 			if (i < '8')
 			{
 				putchar (44);
