@@ -28,6 +28,8 @@ int main(void)
 		}
 		j++;
 	} while (j < 10);
+
+	}
 	putchar ('\n');
 
 
