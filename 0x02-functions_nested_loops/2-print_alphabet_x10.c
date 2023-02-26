@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - prints alphabet 10 times, in lowercase, followed by a new line
+ * main - Prints void print_alphabet_x10,in lowercase, with a new line
  *
  * assigning values and variable to data type
  *
@@ -14,7 +14,7 @@ void print_alphabet_x10(void)
 
 		for (i = 0; i < 10; i++)
 		{
-			for (ch = 'a'; ch < 'z'; ch++)
+			for (ch = 'a'; ch <= 'z'; ch++)
 			{
 				_putchar(ch);
 			}
