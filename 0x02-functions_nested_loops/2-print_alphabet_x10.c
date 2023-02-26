@@ -5,7 +5,6 @@
  *
  * assigning values and variable to data type
  *
- * Return: always 0 (success)
  */
 void print_alphabet_x10(void)
 {
