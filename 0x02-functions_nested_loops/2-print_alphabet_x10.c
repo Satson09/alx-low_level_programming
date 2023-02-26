@@ -7,10 +7,11 @@
  *
  * Return: always 0 (success)
  */
-int main(void)
+void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
+
 		for (i = 0; i < 10; i++)
 		{
 			for (ch = 'a'; ch < 'z'; ch++)
@@ -19,7 +20,7 @@ int main(void)
 			}
 			_putchar('\n');
 		}
-		return (0);
+
 }
 
 
