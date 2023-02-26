@@ -2,7 +2,7 @@
 
 /**
  * main - Prints void print_alphabet_x10,in lowercase, with a new line
- *
+ * @c: character to test.*
  * assigning values and variable to data type
  *
  *Return: x10 a-z
