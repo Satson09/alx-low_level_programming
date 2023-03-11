@@ -32,16 +32,18 @@ char *_strncpy(char *dest, char *src, int n)
 	dest = tmp1;
 	src = tmp2;
 
-	int i;
-	char *tmp = dest;
-
-	for (i = 0; i < n && *src != '\0'; i++)
-		*dest++ = *src++;
-
-	for ( ; i < n; i++)
-	dest++ = '\0';
-
-	*dest = tmp;
+/*
+ *	int i;
+ *	char *tmp = dest;
+ *
+ *	for (i = 0; i < n && *src != '\0'; i++)
+ *	*dest++ = *src++;
+ *
+ *	for ( ; i < n; i++)
+ *	*dest++ = '\0';
+ *
+ *	dest = tmp;
+ */
 
 	return (dest);
 }
