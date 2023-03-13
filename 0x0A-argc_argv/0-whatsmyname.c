@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
@@ -7,9 +6,9 @@
  * @argv: Array name
  * Return: always 0 (success)
  */
-int main(int argc, char **argv)
+int main(int argc, char *argv)
 {
-	printf("%s\n", argv[0]);
+	printf("%s\n", argv[argc - argc]);
 
 	return (0);
 }
