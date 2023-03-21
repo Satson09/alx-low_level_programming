@@ -3,8 +3,9 @@
 #include <stdlib.h>
 
 /**
- * main - function that creates an array of chars, 
+ * main - function that creates an array of chars,
  * and initializes it with a specific char
+ * @c: input
  * @size: the size of the memory output
  * Return: 0 (success)
  */
