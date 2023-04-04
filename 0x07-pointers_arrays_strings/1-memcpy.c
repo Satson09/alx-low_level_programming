@@ -2,7 +2,7 @@
 
 /**
 * _memcpy - copy memory area.
-* @dest: copied
+* @dest: copy
 * @src: original
 * @n: limit
 * Return: pointer
